@@ -124,11 +124,8 @@ body {
     color: #1ebba3;
 }
 
-#about .heading-underline {
+.my-4 {
     width: 67%;
-    height: .5px;
-    background-color: gray;
-    margin: 0 auto 2rem;
 }
 
 #about img {
