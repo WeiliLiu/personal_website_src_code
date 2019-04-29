@@ -243,6 +243,12 @@ ul.timeline > li:before {
     margin: 0 auto 2rem;
 }
 
+.demo-button {
+    background-color: #1ebba3!important;
+    color: white!important;
+    border-color: #1ebba3!important;
+}
+
 /* footer section*/
 footer {
     background-color: #40474e;
