@@ -28,14 +28,14 @@ class About extends Component {
                         </p>
                         <p>
                             After becoming a full-time programming students since 2016, I have discovered my interest in full-stack web
-                            development, with multiple <a href="#">projects</a> on various types of web applications. In 2019, I joined
+                            development, with multiple <a href="/projects">projects</a> on various types of web applications. In 2019, I joined
                             Professor <a href="http://ranjithakumar.net/">Ranjitha Kumar</a>'s Data Driven Design Group to work as a research
                             assistant. During this time, I developed knowledge in making design decisions using different data mining 
                             techniques and enhanced my working knowledge of many state-of-the-art web and mobile development technologies.
                         </p>
                         <p>
                             I am actively seeking internship and full-time positions within the United States as software development engineer.
-                            Feel free to <a href="#">contact</a> me regarding any job opportunities.
+                            Feel free to <a href="/contacts">contact</a> me regarding any job opportunities.
                         </p>
                         <p>
                             Here is a list of my professional skills:

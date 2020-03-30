@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .experience-container h4 {
     margin-bottom: 2rem;
 }
@@ -15,10 +17,10 @@
 }
 
 .experience-container a, a:hover {
-    color: rgb(210, 130, 68);
+    color: $color-secondary;
 }
 
-.experience-container h4:nth-of-type(2) {
+.experience-container h4:nth-of-type(2), h4:nth-of-type(3) {
     margin-top: 3rem;
 }
 
@@ -28,7 +30,8 @@
 }
 
 .experience-pic {
-    width: 43%;
+    width: 40%;
+    margin: 1rem;
 }
 
 .metadata {
@@ -39,7 +42,7 @@
     .experience-pic {
         width: 100%;
         height: auto;
-        margin-bottom: 1rem;
+        margin: 1rem auto;
     }
 
     .metadata {

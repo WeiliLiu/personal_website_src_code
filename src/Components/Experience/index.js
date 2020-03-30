@@ -12,8 +12,9 @@ class Experience extends Component {
         return(
             <div className="experience-container">
                 <h4>Research Experiences</h4>
+
                 <Row>
-                    <Col xl={6} lg={12}>
+                    <Col xl={8} lg={12}>
                         <Row>
                             <Col xl={8} lg={12}>
                                 <span className="experience-title">Privacy Probe (Data Driven Design Group, UIUC)</span>
@@ -31,6 +32,8 @@ class Experience extends Component {
                             </Col>
                         </Row>
                         <p></p>
+                        <Image className="experience-pic" align="right"
+                            src="https://firebasestorage.googleapis.com/v0/b/teamfinder-55b6b.appspot.com/o/c4b03b5a591dbe77c02224117d5d3b4.png?alt=media&token=0860ef30-542f-4b76-8989-402ce2155617"/>
                         <p>Intro: Personally identifiable information (PII) is a topic that has been studied
                             extensively in research. Existing systems are fully capable of automatically
                             detecting typical PII like social security numbers (SSN), email addresses, phone
@@ -39,21 +42,19 @@ class Experience extends Component {
                             identifiable natural person. This requires a more extensive
                             understanding of PII in order to develop mechanisms to handle cases where
                             traditional measures might fall short.</p>
-                    </Col>
-                    <Col xl={6} lg={12}>
-                        <Image className="experience-pic"
-                            src="https://firebasestorage.googleapis.com/v0/b/teamfinder-55b6b.appspot.com/o/c4b03b5a591dbe77c02224117d5d3b4.png?alt=media&token=0860ef30-542f-4b76-8989-402ce2155617"/>
+                        <ul>
+                            <li>Designed a user study with 20 participants to collect data on what people consider as private on  UI screen</li>
+                            <li>Enhanced the existing interaction trace collection system by developing a redaction interface (<strong>ReactJS</strong>)</li>
+                            <li>Expand the database (<strong>MongoDB</strong>) and API (<strong>MongoDB</strong>) to include redaction support</li>
+                            <li>Implemented a user dashboard (<strong>MongoDB</strong>) with a queue system to facilitate the user study</li>
+                        </ul>
                     </Col>
                 </Row>
-                <ul>
-                    <li>Designed a user study with 20 participants to collect data on what people consider as private on  UI screen</li>
-                    <li>Enhanced the existing interaction trace collection system by developing a redaction interface (<strong>ReactJS</strong>)</li>
-                    <li>Expand the database (<strong>MongoDB</strong>) and API (<strong>MongoDB</strong>) to include redaction support</li>
-                    <li>Implemented a user dashboard (<strong>MongoDB</strong>) with a queue system to facilitate the user study</li>
-                </ul>
+
                 <hr/>
+
                 <Row>
-                    <Col xl={6} lg={12}>
+                    <Col xl={8} lg={12}>
                         <Row>
                             <Col xl={9} lg={12}>
                                 <span className="experience-title">EvidenceMiner (Biotext Data Mining Group, UIUC)</span>
@@ -74,6 +75,8 @@ class Experience extends Component {
                                 <span className="research-icons"><FontAwesomeIcon icon={faFileCode}/></span>
                                 <span className="research-icons"><FontAwesomeIcon icon={faDesktop}/></span>
                         <p></p>
+                        <Image className="experience-pic" align="right"
+                            src="https://firebasestorage.googleapis.com/v0/b/teamfinder-55b6b.appspot.com/o/181119d453331748108c078bce480b2.png?alt=media&token=0d7dd792-c193-452e-b4c0-7ec4df8565b1" />
                         <p><strong>Intro: </strong>Search engines on scientific literature have been widely used by life scientists for new discoveries based on 
                             past knowledge. Each day, millions of users query PubMed and PubMed Central (PMC) for their information needs
                             in biomedicine. However, traditional search engines for life sciences (e.g. PubMed) are designed for document
@@ -82,20 +85,18 @@ class Experience extends Component {
                             textual evidence is key to tasks such as developing new hypotheses, designing informative experiments, or 
                             comparing and validating newfindings against previous knowledge.
                         </p>
-                    </Col>
-                    <Col xl={6} lg={12}>
-                        <Image className="experience-pic"
-                            src="https://firebasestorage.googleapis.com/v0/b/teamfinder-55b6b.appspot.com/o/181119d453331748108c078bce480b2.png?alt=media&token=0d7dd792-c193-452e-b4c0-7ec4df8565b1" />
+                        <ul>
+                            <li>Created a web application (<strong>ReactJS</strong>) with a search interface, an annotation interface and a analytics interface</li>
+                            <li>Incorporated <strong>Elasticsearch</strong> into the backend API to allow for more sophisticated search functionalities</li>
+                            <li>Studied various existing dictionaries on the biomedical domain and built a pipeline to preprocess them for later neural network
+                                training
+                            </li>
+                        </ul>
                     </Col>
                 </Row>
-                <ul>
-                    <li>Created a web application (<strong>ReactJS</strong>) with a search interface, an annotation interface and a analytics interface</li>
-                    <li>Incorporated <strong>Elasticsearch</strong> into the backend API to allow for more sophisticated search functionalities</li>
-                    <li>Studied various existing dictionaries on the biomedical domain and built a pipeline to preprocess them for later neural network
-                        training
-                    </li>
-                </ul>
+                
                 <h4>Teaching Experiences</h4>
+
                 <Row>
                     <Col xl={8} lg={12}>
                         <Row>
@@ -124,6 +125,10 @@ class Experience extends Component {
                         </ul>
                     </Col>
                 </Row>
+
+                <h4>Professional Experiences</h4>
+
+                <p><a href="/contacts">Contact</a> me with any job opportunities!</p>
             </div>
         )
     }

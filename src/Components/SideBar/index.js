@@ -45,7 +45,9 @@ class SideBar extends Component {
                                           textAlign: isMobile && showSidebar? 'center' : 'left',
                                           marginBottom: isMobile? '0' : '1.5rem' 
                                           }}>
-                                              <span style={{ fontSize: isLargeScreen? '2.5rem' : (isMobile? (showSidebar? '1.5rem' : '1rem') : '1.5rem'), color: isMobile && showSidebar? 'white' : 'black' }}>Weili Liu</span>
+                                              <span style={{ fontSize: isLargeScreen? '2.5rem' : (isMobile? (showSidebar? '1.5rem' : '1rem') : '1.5rem'), color: isMobile && showSidebar? 'white' : 'black' }}>
+                                                  <a href="/">Weili Liu</a>
+                                              </span>
                                               <span hidden={!isMobile || showSidebar}
                                                     onClick={() => this.setState({ showSidebar: !this.state.showSidebar })}
                                                     style={{ float: 'right', 
@@ -59,11 +61,11 @@ class SideBar extends Component {
                                 <hr hidden={!isMobile}/>
                                 <Nav.Link href="/">Home</Nav.Link>
                                 <Nav.Link href="/about">About</Nav.Link>
-                                <Nav.Link href="/experience">Experiences</Nav.Link>
+                                <Nav.Link href="/experiences">Experiences</Nav.Link>
                                 <hr />
-                                <Nav.Link>Projects</Nav.Link>
-                                <Nav.Link>Gallery</Nav.Link>
-                                <Nav.Link>Contacts</Nav.Link>
+                                <Nav.Link href="/projects">Projects</Nav.Link>
+                                <Nav.Link href="/gallery">Gallery</Nav.Link>
+                                <Nav.Link href="/contacts">Contacts</Nav.Link>
                                 <Nav.Item className="bottom-info">
                                     <ListGroup className="icon-list" horizontal>
                                         <ListGroup.Item className="social-icons" as='a' href="#"><FontAwesomeIcon icon={faLinkedinIn} /></ListGroup.Item>
@@ -80,7 +82,10 @@ class SideBar extends Component {
                         <Switch>
                             <Route path="/" component={Home} exact/>
                             <Route path="/about" component={About} />
-                            <Route path="/experience" component={Experience} />
+                            <Route path="/experiences" component={Experience} />
+                            <Route path="/projects" component={Home} />
+                            <Route path="/gallery" component={Home} />
+                            <Route path="/contacts" component={Home} />
                         </Switch>
                     </div>
                 </div>
