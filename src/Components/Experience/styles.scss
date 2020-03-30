@@ -1,0 +1,48 @@
+.experience-container h4 {
+    margin-bottom: 2rem;
+}
+
+.experience-container p, span, li{
+    font-size: 0.9rem;
+}
+
+.research-icons {
+    padding: 5px;
+}
+
+.experience-container hr {
+    opacity: 0;
+}
+
+.experience-container a, a:hover {
+    color: rgb(210, 130, 68);
+}
+
+.experience-container h4:nth-of-type(2) {
+    margin-top: 3rem;
+}
+
+.experience-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.experience-pic {
+    width: 43%;
+}
+
+.metadata {
+    float: right;
+}
+
+@media (max-width: 1200px) {
+    .experience-pic {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .metadata {
+        float: left;
+    }
+}
