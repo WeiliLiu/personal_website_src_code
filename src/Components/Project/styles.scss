@@ -1,0 +1,118 @@
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+.card {
+    border-radius: 0!important;
+    border-width: 0.5px!important;
+    margin: 0!important;
+}
+
+.card-img-wrapper {
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.card-img-top {
+    border-radius: 0!important;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.card-img-wrapper:hover {
+    color: red;
+}
+
+.card-img-wrapper:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out!important;
+    text-align: right;
+}
+
+.card-img-wrapper:hover .card-img-overlay {
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-img-wrapper:hover .overlay-button {
+    opacity: 1;
+    transition: all 0.3s ease-in-out!important;
+}
+
+.overlay-button {
+    border-radius: 50em;
+    border: solid 0.5px white;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 0.8rem;
+    font-weight: bold;
+    opacity: 0;
+    margin: 0 0.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.overlay-button:hover {
+    border-color: rgb(184, 184, 184);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+}
+
+.overlay-button:active, .overlay-button:focus, .overlay-button:visited {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+}
+
+.card-body {
+    padding: 1.5rem 1rem;
+}
+
+.card-title {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.8rem;
+}
+
+.card-footer {
+    background-color: white;
+    border-width: 0.5px;
+    text-align: right;
+}
+
+.badge {
+    font-size: 0.6rem;
+    font-weight: 100;
+    margin: 0 2px;
+    border-radius: 50em;
+    padding: 0.2rem 0.6rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    border: solid 0.5px black;
+}
+
+// .react-badge {
+//     background-color: rgb(159, 210, 214);
+// }
+
+// .py-badge {
+//     background-color: rgb(255, 134, 1);
+// }
+
+// .es-badge {
+//     background-color: rgb(129, 84, 239);
+// }

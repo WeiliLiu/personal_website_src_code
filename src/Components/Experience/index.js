@@ -71,9 +71,9 @@ class Experience extends Component {
                                 <span className="metadata">Champaign, IL</span>
                             </Col>
                         </Row>
-                        <span className="research-icons" as='a' href="#"><FontAwesomeIcon icon={faFilePdf}/></span>
-                                <span className="research-icons"><FontAwesomeIcon icon={faFileCode}/></span>
-                                <span className="research-icons"><FontAwesomeIcon icon={faDesktop}/></span>
+                        <a className="research-icons" href="https://google.com"><FontAwesomeIcon icon={faFilePdf}/></a>
+                        <a className="research-icons"><FontAwesomeIcon icon={faFileCode}/></a>
+                        <a className="research-icons"><FontAwesomeIcon icon={faDesktop}/></a>
                         <p></p>
                         <Image className="experience-pic" align="right"
                             src="https://firebasestorage.googleapis.com/v0/b/teamfinder-55b6b.appspot.com/o/181119d453331748108c078bce480b2.png?alt=media&token=0d7dd792-c193-452e-b4c0-7ec4df8565b1" />
