@@ -60,7 +60,7 @@ class Experience extends Component {
                                 <span className="experience-title">EvidenceMiner (Biotext Data Mining Group, UIUC)</span>
                             </Col>
                             <Col xl={3} lg={12}>
-                                <span className="metadata">May 2019 - Present</span>
+                                <span className="metadata">May 2019 - May 2020</span>
                             </Col>
                         </Row>
                         <Row>
@@ -71,9 +71,9 @@ class Experience extends Component {
                                 <span className="metadata">Champaign, IL</span>
                             </Col>
                         </Row>
-                        <a className="research-icons" href="https://google.com"><FontAwesomeIcon icon={faFilePdf}/></a>
-                        <a className="research-icons"><FontAwesomeIcon icon={faFileCode}/></a>
-                        <a className="research-icons"><FontAwesomeIcon icon={faDesktop}/></a>
+                        <a className="research-icons" href="https://www.aclweb.org/anthology/2020.acl-demos.8.pdf"><FontAwesomeIcon icon={faFilePdf}/></a>
+                        <a className="research-icons" href="https://github.com/WeiliLiu/EvidenceMiner"><FontAwesomeIcon icon={faFileCode}/></a>
+                        <a className="research-icons" href="https://evidenceminer.com"><FontAwesomeIcon icon={faDesktop}/></a>
                         <p></p>
                         <Image className="experience-pic" align="right"
                             src="https://firebasestorage.googleapis.com/v0/b/teamfinder-55b6b.appspot.com/o/181119d453331748108c078bce480b2.png?alt=media&token=0d7dd792-c193-452e-b4c0-7ec4df8565b1" />

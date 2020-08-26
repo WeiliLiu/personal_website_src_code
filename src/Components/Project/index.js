@@ -13,8 +13,8 @@ class Project extends React.Component {
                         <div className="card-img-wrapper">
                             <Card.Img variant="top" src={require('../../assets/Images/evidenceminer.png')}></Card.Img>
                             <Card.ImgOverlay>
-                                <Button variant="link" className="overlay-button">Github</Button>
-                                <Button variant="link" className="overlay-button">Demo</Button>
+                                <Button variant="link" className="overlay-button" href="https://github.com/WeiliLiu/EvidenceMiner">Github</Button>
+                                <Button variant="link" className="overlay-button" href="https://evidenceminer.com">Demo</Button>
                             </Card.ImgOverlay>
                         </div>
                         <Card.Body>
@@ -24,52 +24,69 @@ class Project extends React.Component {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Badge variant="primary" className="react-badge">React</Badge>
-                            <Badge variant="primary" className="es-badge">Elasticsearch</Badge>
-                            <Badge variant="primary" className="py-badge">Python</Badge>
+                            <Badge variant="primary">React</Badge>
+                            <Badge variant="primary">Elasticsearch</Badge>
+                            <Badge variant="primary">Python</Badge>
                         </Card.Footer>
                     </Card>
                     <Card>
-                        <Card.Img variant="top" ></Card.Img>
+                        <div className="card-img-wrapper">
+                            <Card.Img variant="top" src={require('../../assets/Images/pubgstat.png')}></Card.Img>
+                            <Card.ImgOverlay>
+                                <Button variant="link" className="overlay-button" href="https://github.com/WeiliLiu/pubgstat">Github</Button>
+                                <Button variant="link" className="overlay-button" href="https://pubgstat-db9ba.firebaseapp.com/">Demo</Button>
+                            </Card.ImgOverlay>
+                        </div>
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Pubgstat</Card.Title>
                             <Card.Text>
-                                Some Card Text.
+                                A website for PUBG players.
                             </Card.Text>
                         </Card.Body>
-                        <ListGroup className="list-group-flush">
-                            <ListGroupItem>Cras justo odio</ListGroupItem>
-                            <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                            <ListGroupItem>Vestibulum at eros</ListGroupItem>
-                        </ListGroup>
+                        <Card.Footer>
+                            <Badge variant="primary">React</Badge>
+                            <Badge variant="primary">Firebase</Badge>
+                        </Card.Footer>
                     </Card>
                     <Card>
-                        <Card.Img variant="top" ></Card.Img>
+                        <div className="card-img-wrapper">
+                            <Card.Img variant="top" src={require('../../assets/Images/pubgstat.png')}></Card.Img>
+                            <Card.ImgOverlay>
+                                <Button variant="link" className="overlay-button">Github</Button>
+                                <Button variant="link" className="overlay-button">Demo</Button>
+                            </Card.ImgOverlay>
+                        </div>
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>GoDutch</Card.Title>
                             <Card.Text>
-                                Some Card Text.
+                                An Android application for grocery bill splitting.
                             </Card.Text>
                         </Card.Body>
-                        <ListGroup className="list-group-flush">
-                            <ListGroupItem>Cras justo odio</ListGroupItem>
-                            <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                            <ListGroupItem>Vestibulum at eros</ListGroupItem>
-                        </ListGroup>
+                        <Card.Footer>
+                            <Badge variant="primary">React Native</Badge>
+                            <Badge variant="primary">mySQL</Badge>
+                            <Badge variant="primary">Flask</Badge>
+                        </Card.Footer>
                     </Card>
                     <Card>
-                        <Card.Img variant="top" ></Card.Img>
+                        <div className="card-img-wrapper">
+                            <Card.Img variant="top" src={require('../../assets/Images/linux.jpg')}></Card.Img>
+                            <Card.ImgOverlay>
+                                <Button variant="link" className="overlay-button">Github</Button>
+                                <Button variant="link" className="overlay-button">Demo</Button>
+                            </Card.ImgOverlay>
+                        </div>
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Linux Kernel</Card.Title>
                             <Card.Text>
-                                Some Card Text.
+                                A mini linux kernel with basic functionalities implemented.
                             </Card.Text>
                         </Card.Body>
-                        <ListGroup className="list-group-flush">
-                            <ListGroupItem>Cras justo odio</ListGroupItem>
-                            <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                            <ListGroupItem>Vestibulum at eros</ListGroupItem>
-                        </ListGroup>
+                        <Card.Footer>
+                            <Badge variant="primary">C</Badge>
+                            <Badge variant="primary">x86</Badge>
+                            <Badge variant="primary">Unix</Badge>
+                        </Card.Footer>
                     </Card>
                 </div>
             </div>

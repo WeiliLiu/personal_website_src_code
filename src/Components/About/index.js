@@ -22,9 +22,10 @@ class About extends Component {
                     <Col xl={5} lg={12} >
                         <p>Hi!</p>
                         <p>
-                            My name is Weili. I'm currently pursuing a B.S. degree in Computer Science (Expected graduation in May 2020) 
-                            in the University of Illinois, Urbana-Champaign. I will move on to pursue a MEng degree in Electrical Engineering
-                            and Computer Sciences in U.C. Berkeley starting August 2020.
+                            My name is Weili. I'm currently pursuing a Masters of Engineering degree in Electrical Engineering and
+                            Computer Sciences (Expected graduation in May 2021) at the University of California, Berkeley. I received 
+                            my B.S. degree in Computer Science with highest honor from the University of Illinois at Urbana-Champaign
+                            in May 2020.
                         </p>
                         <p>
                             After becoming a full-time programming students since 2016, I have discovered my interest in full-stack web

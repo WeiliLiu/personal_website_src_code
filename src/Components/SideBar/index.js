@@ -11,6 +11,8 @@ import About from '../About';
 import Home from '../Home';
 import Experience from '../Experience';
 import Project from '../Project';
+import Gallery from '../Gallery';
+import Contact from '../Contact';
 
 class SideBar extends Component {
     constructor(props) {
@@ -69,10 +71,10 @@ class SideBar extends Component {
                                 <Nav.Link href="/contacts">Contacts</Nav.Link>
                                 <Nav.Item className="bottom-info">
                                     <ListGroup className="icon-list" horizontal>
-                                        <ListGroup.Item className="social-icons" as='a' href="https://www.linkedin.com/in/weili-liu/"><FontAwesomeIcon icon={faLinkedinIn} /></ListGroup.Item>
-                                        <ListGroup.Item className="social-icons" as='a' href="https://github.com/WeiliLiu"><FontAwesomeIcon icon={faGithub} /></ListGroup.Item>
-                                        <ListGroup.Item className="social-icons" as='a' href="https://www.instagram.com/weili_liu_liye/?hl=en"><FontAwesomeIcon icon={faInstagram} /></ListGroup.Item>
-                                        <ListGroup.Item className="social-icons" as='a' href="mailto:weili_liu@berkeley.edu"><FontAwesomeIcon icon={faAt} /></ListGroup.Item>
+                                        <ListGroup.Item className="social-icons"><a href="https://www.linkedin.com/in/weili-liu/"><FontAwesomeIcon icon={faLinkedinIn} /></a></ListGroup.Item>
+                                        <ListGroup.Item className="social-icons"><a href="https://github.com/WeiliLiu"><FontAwesomeIcon icon={faGithub} /></a></ListGroup.Item>
+                                        <ListGroup.Item className="social-icons"><a href="https://www.instagram.com/weili_liu_liye/?hl=en"><FontAwesomeIcon icon={faInstagram} /></a></ListGroup.Item>
+                                        <ListGroup.Item className="social-icons"><a href="mailto:weili_liu@berkeley.edu"><FontAwesomeIcon icon={faAt} /></a></ListGroup.Item>
                                     </ListGroup>
                                 </Nav.Item>
                             </div>
@@ -85,8 +87,8 @@ class SideBar extends Component {
                             <Route path="/about" component={About} />
                             <Route path="/experiences" component={Experience} />
                             <Route path="/projects" component={Project} />
-                            <Route path="/gallery" component={Home} />
-                            <Route path="/contacts" component={Home} />
+                            <Route path="/gallery" component={Gallery} />
+                            <Route path="/contacts" component={Contact} />
                         </Switch>
                     </div>
                 </div>
