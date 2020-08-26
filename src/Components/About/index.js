@@ -91,7 +91,7 @@ class About extends Component {
                     </Col>
                     <Col xl={7} lg={12}>
                         <Image className="profile-pic"
-                            src="https://firebasestorage.googleapis.com/v0/b/teamfinder-55b6b.appspot.com/o/WeChat%20Image_20200328213704.jpg?alt=media&token=f10334a5-893f-439e-a9df-93bdf2f62d59"
+                            src={require('../../assets/images/me.jpg')}
                         />
                     </Col>
                 </Row>

@@ -8,22 +8,11 @@ class Contact extends React.Component {
             <div className="contact-page">
                 <h4 style={{ marginBottom: '1.5rem' }}>Get in touch with me</h4>
                 <h6 style={{ fontWeight: 'bold' }}>Email</h6>
-                <ul>
-                    <li>weili_liu@berkeley.edu</li>
-                    <li>weililiu1996@gmail.com</li>
-                </ul>
+                <p>weili_liu@berkeley.edu</p>
                 <h6 style={{ fontWeight: 'bold' }}>Linkedin</h6>
-                <ul>
-                    <li>
-                        <a href="https://www.linkedin.com/in/weili-liu/">linkedin.com/in/weili-liu/</a>
-                    </li>
-                </ul>
+                <a href="https://www.linkedin.com/in/weili-liu/">linkedin.com/in/weili-liu/</a>
                 <h6 style={{ fontWeight: 'bold' }}>Github</h6>
-                <ul>
-                    <li>
-                        <a href="https://www.linkedin.com/in/weili-liu/">linkedin.com/in/weili-liu/</a>
-                    </li>
-                </ul>
+                <a href="https://github.com/WeiliLiu">github.com/WeiliLiu</a>
             </div>
         )
     }

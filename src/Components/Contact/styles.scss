@@ -6,3 +6,9 @@
     font-size: 1.5rem;
     font-weight: slim;
 }
+
+@media (max-width: 1200px) {
+    .contact-page {
+        text-align: center;
+    }
+}

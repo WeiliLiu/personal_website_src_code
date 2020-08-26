@@ -33,7 +33,7 @@ class Experience extends Component {
                         </Row>
                         <p></p>
                         <Image className="experience-pic" align="right"
-                            src="https://firebasestorage.googleapis.com/v0/b/teamfinder-55b6b.appspot.com/o/c4b03b5a591dbe77c02224117d5d3b4.png?alt=media&token=0860ef30-542f-4b76-8989-402ce2155617"/>
+                            src={require('../../assets/images/zipt.png')} />
                         <p>Intro: Personally identifiable information (PII) is a topic that has been studied
                             extensively in research. Existing systems are fully capable of automatically
                             detecting typical PII like social security numbers (SSN), email addresses, phone
@@ -76,7 +76,7 @@ class Experience extends Component {
                         <a className="research-icons" href="https://evidenceminer.com"><FontAwesomeIcon icon={faDesktop}/></a>
                         <p></p>
                         <Image className="experience-pic" align="right"
-                            src="https://firebasestorage.googleapis.com/v0/b/teamfinder-55b6b.appspot.com/o/181119d453331748108c078bce480b2.png?alt=media&token=0d7dd792-c193-452e-b4c0-7ec4df8565b1" />
+                            src={require('../../assets/images/evidenceminer-2.png')} />
                         <p><strong>Intro: </strong>Search engines on scientific literature have been widely used by life scientists for new discoveries based on 
                             past knowledge. Each day, millions of users query PubMed and PubMed Central (PMC) for their information needs
                             in biomedicine. However, traditional search engines for life sciences (e.g. PubMed) are designed for document

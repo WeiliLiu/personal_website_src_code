@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, ListGroup, ListGroupItem, Badge, Button } from 'react-bootstrap';
+import { Card, Badge, Button } from 'react-bootstrap';
 
 import './styles.scss';
 
@@ -11,7 +11,7 @@ class Project extends React.Component {
                 <div className="card-deck">
                     <Card>
                         <div className="card-img-wrapper">
-                            <Card.Img variant="top" src={require('../../assets/Images/evidenceminer.png')}></Card.Img>
+                            <Card.Img variant="top" src={require('../../assets/images/evidenceminer.png')}></Card.Img>
                             <Card.ImgOverlay>
                                 <Button variant="link" className="overlay-button" href="https://github.com/WeiliLiu/EvidenceMiner">Github</Button>
                                 <Button variant="link" className="overlay-button" href="https://evidenceminer.com">Demo</Button>
@@ -31,7 +31,7 @@ class Project extends React.Component {
                     </Card>
                     <Card>
                         <div className="card-img-wrapper">
-                            <Card.Img variant="top" src={require('../../assets/Images/pubgstat.png')}></Card.Img>
+                            <Card.Img variant="top" src={require('../../assets/images/pubgstat.png')}></Card.Img>
                             <Card.ImgOverlay>
                                 <Button variant="link" className="overlay-button" href="https://github.com/WeiliLiu/pubgstat">Github</Button>
                                 <Button variant="link" className="overlay-button" href="https://pubgstat-db9ba.firebaseapp.com/">Demo</Button>
@@ -50,10 +50,9 @@ class Project extends React.Component {
                     </Card>
                     <Card>
                         <div className="card-img-wrapper">
-                            <Card.Img variant="top" src={require('../../assets/Images/pubgstat.png')}></Card.Img>
+                            <Card.Img variant="top" src={require('../../assets/images/godutch.png')}></Card.Img>
                             <Card.ImgOverlay>
-                                <Button variant="link" className="overlay-button">Github</Button>
-                                <Button variant="link" className="overlay-button">Demo</Button>
+                                <Button variant="link" className="overlay-button" href="https://github.com/WeiliLiu/GoDutch">Github</Button>
                             </Card.ImgOverlay>
                         </div>
                         <Card.Body>
@@ -70,10 +69,9 @@ class Project extends React.Component {
                     </Card>
                     <Card>
                         <div className="card-img-wrapper">
-                            <Card.Img variant="top" src={require('../../assets/Images/linux.jpg')}></Card.Img>
+                            <Card.Img variant="top" src={require('../../assets/images/linux.jpg')}></Card.Img>
                             <Card.ImgOverlay>
-                                <Button variant="link" className="overlay-button">Github</Button>
-                                <Button variant="link" className="overlay-button">Demo</Button>
+                                <Button variant="link" className="overlay-button" href="https://github.com/WeiliLiu/Linux_Kernel.git">Github</Button>
                             </Card.ImgOverlay>
                         </div>
                         <Card.Body>

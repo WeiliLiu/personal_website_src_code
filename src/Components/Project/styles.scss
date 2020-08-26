@@ -19,6 +19,8 @@
 .card-img-top {
     border-radius: 0!important;
     transition: all 0.3s ease-in-out;
+    max-height: 220px;
+    object-fit: cover;
     opacity: 1;
 }
 
