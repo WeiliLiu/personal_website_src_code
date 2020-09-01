@@ -1,14 +1,66 @@
-.contact-page p {
-    font-size: 0.9rem;
+@import '../../variables.scss';
+
+.contact-page {
+    max-width: 40rem;
+    font-size: 0.8rem;
 }
 
-.contact-title {
-    font-size: 1.5rem;
-    font-weight: slim;
+.message-box {
+    height: 10rem!important;
 }
 
-@media (max-width: 1200px) {
+.square-form {
+    border-radius: 0;
+}
+
+.form-font {
+    font-size: .9rem;
+}
+
+.form-padding {
+    padding: 1.3rem 1rem;
+}
+
+.error-msg {
+    color: rgb(102, 102, 102);
+    font-size: .8rem;
+}
+
+.no-box-shadow, .no-box-shadow:focus {
+    box-shadow: none;
+}
+
+.no-box-shadow:focus {
+    border-color: $color-secondary;
+}
+
+.submit-button {
+    background-color: $color-secondary;
+    border: None;
+    min-width: 10rem;
+    float: right;
+}
+
+.submit-button:hover {
+    background-color: $darker-secondary;
+}
+
+.submit-button:active, .submit-button:focus {
+    outline: 0 !important;
+    outline-offset: 0  !important;
+    background-image: none  !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none  !important;
+    background-color: $darkest-secondary !important;
+}
+
+@media (max-width: 992px) {
     .contact-page {
         text-align: center;
+        margin: 0 auto;
+    }
+
+    .submit-button {
+        float: none;
     }
 }

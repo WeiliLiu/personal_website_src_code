@@ -11,7 +11,7 @@ class Project extends React.Component {
                 <div className="card-deck">
                     <Card>
                         <div className="card-img-wrapper">
-                            <Card.Img variant="top" src={require('../../assets/images/evidenceminer.png')}></Card.Img>
+                            <Card.Img variant="top" src={require('../../assets/images/evidenceminer.jpg')}></Card.Img>
                             <Card.ImgOverlay>
                                 <Button variant="link" className="overlay-button" href="https://github.com/WeiliLiu/EvidenceMiner">Github</Button>
                                 <Button variant="link" className="overlay-button" href="https://evidenceminer.com">Demo</Button>
@@ -31,7 +31,29 @@ class Project extends React.Component {
                     </Card>
                     <Card>
                         <div className="card-img-wrapper">
-                            <Card.Img variant="top" src={require('../../assets/images/pubgstat.png')}></Card.Img>
+                            <Card.Img variant="top" src={require('../../assets/images/zipt-2.jpg')}></Card.Img>
+                            <Card.ImgOverlay>
+                                <Button variant="link" className="overlay-button" href="https://zipt.design">Demo</Button>
+                            </Card.ImgOverlay>
+                        </div>
+                        <Card.Body>
+                            <Card.Title>ZIPT</Card.Title>
+                            <Card.Text>
+                                A zero-integration performance testing platform that allows designers to collect detailed design and 
+                                interaction data over any Android application.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <Badge variant="primary">React</Badge>
+                            <Badge variant="primary">ExpressJS</Badge>
+                            <Badge variant="primary">MongoDB</Badge>
+                            <Badge variant="primary">Vue</Badge>
+                            <Badge variant="primary">Angular</Badge>
+                        </Card.Footer>
+                    </Card>
+                    <Card>
+                        <div className="card-img-wrapper">
+                            <Card.Img variant="top" src={require('../../assets/images/pubgstat.jpg')}></Card.Img>
                             <Card.ImgOverlay>
                                 <Button variant="link" className="overlay-button" href="https://github.com/WeiliLiu/pubgstat">Github</Button>
                                 <Button variant="link" className="overlay-button" href="https://pubgstat-db9ba.firebaseapp.com/">Demo</Button>
@@ -40,7 +62,7 @@ class Project extends React.Component {
                         <Card.Body>
                             <Card.Title>Pubgstat</Card.Title>
                             <Card.Text>
-                                A website for PUBG players.
+                                A website for PUBG players to look for information and chat.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -50,7 +72,7 @@ class Project extends React.Component {
                     </Card>
                     <Card>
                         <div className="card-img-wrapper">
-                            <Card.Img variant="top" src={require('../../assets/images/godutch.png')}></Card.Img>
+                            <Card.Img variant="top" src={require('../../assets/images/godutch.jpg')}></Card.Img>
                             <Card.ImgOverlay>
                                 <Button variant="link" className="overlay-button" href="https://github.com/WeiliLiu/GoDutch">Github</Button>
                             </Card.ImgOverlay>
@@ -65,25 +87,6 @@ class Project extends React.Component {
                             <Badge variant="primary">React Native</Badge>
                             <Badge variant="primary">mySQL</Badge>
                             <Badge variant="primary">Flask</Badge>
-                        </Card.Footer>
-                    </Card>
-                    <Card>
-                        <div className="card-img-wrapper">
-                            <Card.Img variant="top" src={require('../../assets/images/linux.jpg')}></Card.Img>
-                            <Card.ImgOverlay>
-                                <Button variant="link" className="overlay-button" href="https://github.com/WeiliLiu/Linux_Kernel.git">Github</Button>
-                            </Card.ImgOverlay>
-                        </div>
-                        <Card.Body>
-                            <Card.Title>Linux Kernel</Card.Title>
-                            <Card.Text>
-                                A mini linux kernel with basic functionalities implemented.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <Badge variant="primary">C</Badge>
-                            <Badge variant="primary">x86</Badge>
-                            <Badge variant="primary">Unix</Badge>
                         </Card.Footer>
                     </Card>
                 </div>
